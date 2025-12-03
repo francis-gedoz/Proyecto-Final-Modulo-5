@@ -3,7 +3,7 @@ import StationItem from "./StationItem";
 
 function StationList({ stations }) {
     return (
-        <div>
+        <div className="cards-grid">
         {stations.map((station) => (
             <StationItem key={station.id} station={station} />
         ))}

@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 function NetworkList({ networks }) {
     return (
-        <div>
+        <div className="cards-grid">
         {networks.map((net) => (
-            <Card key={net.id} sx={{ mb: 2, p: 1 }}>
+            <Card key={net.id} className="network-card" sx={{ p: 1, mb: 2 }}>
             <CardContent>
                 <Typography variant="h6">{net.name}</Typography>
                 <Typography>{net.location.city}, {net.location.country}</Typography>

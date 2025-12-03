@@ -10,7 +10,6 @@ function App() {
     <Router>
       <ErrorBoundary>
         <Navbar />
-
         <div style={{ marginTop: "95px" }}>
           <Routes>
             <Route path="/" element={<Home />} />
