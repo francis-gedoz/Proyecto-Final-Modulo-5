@@ -4,12 +4,14 @@ Aplicación web desarrollada en **React + Vite** que permite explorar
 redes de bicicletas públicas en todo el mundo utilizando la API pública
 **CityBikes**.
 
-El usuario puede: - Ver todas las redes de bicicletas disponibles. -
-Seleccionar una red y ver sus estaciones. - Abrir cualquier estación
-directamente en **Google Maps**. - Navegar entre páginas gracias a
-**React Router**. - Visualizar la interfaz con estilos de **Material UI
-(MUI)**. - Contar con un control de errores gracias a **Error
-Boundaries**.
+El usuario puede: 
+
+- Ver todas las redes de bicicletas disponibles.
+- Seleccionar una red y ver sus estaciones.
+- Abrir cualquier estación directamente en **Google Maps**.
+- Navegar entre páginas gracias a **React Router**.
+- Visualizar la interfaz con estilos de **Material UI (MUI)**.
+- Contar con un control de errores gracias a **Error Boundaries**.
 
 ------------------------------------------------------------------------
 
@@ -81,8 +83,11 @@ fallos de renderizado.
 
 ### `useFetch(url)`
 
-Permite: - manejar carga (`loading`) - manejar errores (`error`) -
-obtener datos desde la API (`data`)
+Permite: 
+
+- Manejar carga (`loading`)
+- Manejar errores (`error`)
+- Obtener datos desde la API (`data`)
 
 ------------------------------------------------------------------------
 
