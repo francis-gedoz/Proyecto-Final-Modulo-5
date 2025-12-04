@@ -14,6 +14,7 @@ function NetworksPage() {
         <Typography variant="h4" align="center" sx={{ mb: 2 }}>
             Redes Globales
         </Typography>
+
         <NetworkList networks={data.networks} />
         </Container>
     );

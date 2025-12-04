@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Typography } from "@mui/material";
 import bike from "../assets/bike.png";
 
@@ -15,6 +16,7 @@ function Home() {
         </style>
 
         <Typography variant="h4">Bienvenido a la App de GlobalBikes 🚲</Typography>
+
         <Typography sx={{ mt: 2 }}>
             Explora redes y estaciones públicas de bicicletas en todo el mundo.
         </Typography>
@@ -22,7 +24,11 @@ function Home() {
         <img
             src={bike}
             alt="Bicicleta"
-            style={{ width: "550px", marginTop: "40px", animation: "pedal 1.4s ease-in-out infinite" }}
+            style={{
+            width: "550px",
+            marginTop: "40px",
+            animation: "pedal 1.4s ease-in-out infinite",
+            }}
         />
         </Container>
     );

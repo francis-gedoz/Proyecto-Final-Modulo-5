@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import NetworksPage from "./Pages/NetworksPage";
@@ -7,18 +8,19 @@ import ErrorBoundary from "./Errors/ErrorBoundary";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <ErrorBoundary>
         <Navbar />
+
         <div style={{ marginTop: "95px" }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/networks" element={<NetworksPage />} />
             <Route path="/stations/:id" element={<StationsPage />} />
           </Routes>
-        </div>
+        </div>  
       </ErrorBoundary>
-    </Router>
+    </BrowserRouter>
   );
 }
 
